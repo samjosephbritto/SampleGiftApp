@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <EditText
+            android:id="@+id/ename"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:paddingBottom="10dp"
+            android:backgroundTint="#ffffff"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:textColorHint="#ffffff"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/eemail"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#ffffff"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/estate"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:textColor="#FFFFFF"
+            android:hint="State"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#ffffff"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/regbutton2"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/button"
+            android:layout_below="@+id/textView1"
+            android:background="#FFFFFF"
+            android:layout_marginTop="80dp"
+            android:text="Register" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout >

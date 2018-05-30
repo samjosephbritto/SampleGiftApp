@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/about_name" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Shop" />
+        <item
+            android:id="@+id/nav_wrap"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Wrapping Area" />
+
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Delivery Area" />
+
+        <item
+            android:id="@+id/nav_mycloud"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="My Cloud" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Wish List" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Help " />
+
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="My Account " />
+
+        <item
+            android:id="@+id/nav_personname"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Logined Name" />
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Your Orders " />
+
+
+
+      <!--  <item
+            android:id="@+id/nav_registrer"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/register_name"/>-->
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/login_name" />
+    </group>
+</menu>
